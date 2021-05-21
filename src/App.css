@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+body {
+  background-color: #1c1c1c;
+}
+
+.App {
+  margin: 50px auto;
+}
+
+.header-text {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: #e8bd0d;
+}
+
+.card {
+  height: 250px;
+  width: 200px;
+  border: none;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  border-radius: 10px;
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container button {
+  color: white;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(#fd297a, #9424f0);
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.btn-container button:disabled {
+  opacity: 0.4;
+  cursor: no-drop;
+}
+
+.loader {
+  text-align: center;
+}
